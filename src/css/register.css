@@ -1,0 +1,70 @@
+
+
+.main-register form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #ff0015;
+    outline: none;
+}
+
+/* Button styles */
+.main-register button {
+    background-color: #ff0015;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.main-register button:hover {
+    background-color: #ff0015;
+}
+
+/* Link styles */
+.main-register p {
+    margin-top: 15px;
+}
+
+.main-register a {
+    color: #ff0015;
+    text-decoration: none;
+}
+
+.main-register a:hover {
+    text-decoration: underline;
+}
+
+.main-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.main-register img {
+    margin-bottom: 4rem;
+}

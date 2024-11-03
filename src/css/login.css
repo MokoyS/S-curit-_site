@@ -1,0 +1,66 @@
+
+.main-login form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #ff0015;
+    outline: none;
+}
+
+/* Button styles */
+.main-login button {
+    background-color: #ff0015;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.main-login button:hover {
+    background-color: #ff0015;
+}
+
+.main-login p {
+    margin-top: 15px;
+}
+
+.main-login a {
+    color: #ff0015;
+    text-decoration: none;
+}
+
+.main-login a:hover {
+    text-decoration: underline;
+}
+
+.main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.main-login img {
+    margin-bottom: 4rem;
+}

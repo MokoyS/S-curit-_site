@@ -1,0 +1,155 @@
+
+/* Input styles */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #ff0015;
+    outline: none;
+}
+
+.header-index button {
+    background-color: #ff0015;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.header-index button:hover {
+    background-color: #cc0012;
+}
+
+.header-index a {
+    color: #ff0015;
+    text-decoration: none;
+    border: 1px solid #ff0015;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.header-index a:hover {
+    background-color: #ff0015;
+    color: white;
+}
+
+
+.header-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+
+.f1-todo-container {
+    margin-top: 60px!important;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.f1-button {
+    padding: 10px;
+    background-color: #ff0015;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.f1-button:hover {
+    background-color: #ff0015;
+}
+
+.f1-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.f1-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.f1-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.f1-close:hover,
+.f1-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.f1-pilot-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 80px;
+}
+
+.f1-pilot-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.f1-delete-button {
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.f1-delete-button:hover {
+    background-color: #c9302c;
+}
+
+.main-index {
+    display: flex;
+    flex-direction: column;
+}
